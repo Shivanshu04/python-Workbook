@@ -16,4 +16,21 @@ print(a) #multiline String
 a = "Shivanshu\nGupta"
 print(a)
 
+#acessing the character in string
+s= 'hello'
+print(s[0])
+print(s[3])
+print(s[4])
+ # negative  indexingp
+print("anothe method")
+s= 'hello'
+print(s[-2])
+print(s[-3])
+print(s[-4])
 
+# string Concatenation 
+#We can perform string concatenation using the following ways:
+#  1. Using + operator 
+# 2. Using join() method
+#  3. Using % operator
+#  4. Using format() function
