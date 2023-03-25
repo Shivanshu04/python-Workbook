@@ -56,3 +56,9 @@ print(S*3)
 # reverse the string
 a= "kids"
 print(a[::-1])
+
+# string slicing
+S =  "string"
+print(S[:3])
+print(S[3:])
+print(S[0:5:2])
