@@ -34,3 +34,18 @@ print(s[-4])
 # 2. Using join() method
 #  3. Using % operator
 #  4. Using format() function
+
+# Python program to demonstrate  # string concatenation
+a="love"
+b="you"
+  # % Operator is used here to combine the string stored in var1 and var2 
+print("%s %s" % (a, b))
+
+#In Python, formatters work by employing replacement fields and different placeholders defined by a pair of curly braces {}, one curly brace for each string, and then calling {}.format().
+#  The value we wish to concatenate is passed as function parameters to format(). Syntax : { } .format(value) Parameters : 
+# (value) : Can be an integer, floating-point, string, characters or even variables containing other values.
+#  Return type : Returns a formatted string with the value passed as a parameter in the placeholder position.
+# Python3 program to demonstarte # the str.format() method # using format option in a simple string 
+print ("{}, is best for DSA content." .format("CodingNinjas")) # using format option for a # value stored in a variable str = "This article is provided at {}" 
+print (str.format("CodeStudio")) # formatting a string using a numeric constant
+print ("Hello, I am {} years old".format(20))
