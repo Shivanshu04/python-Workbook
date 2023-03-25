@@ -49,3 +49,10 @@ print("%s %s" % (a, b))
 print ("{}, is best for DSA content." .format("CodingNinjas")) # using format option for a # value stored in a variable str = "This article is provided at {}" 
 print (str.format("CodeStudio")) # formatting a string using a numeric constant
 print ("Hello, I am {} years old".format(20))
+
+# repeating the string
+S= "Shivu"
+print(S*3)
+# reverse the string
+a= "kids"
+print(a[::-1])
