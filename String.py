@@ -62,3 +62,8 @@ S =  "string"
 print(S[:3])
 print(S[3:])
 print(S[0:5:2])
+
+def countWords(string):
+    c=string.count(" ")
+
+    return(c+1)
