@@ -10,3 +10,10 @@ print(data)
 #update sonu age 23
 data[5]=23
 print(data)
+# another method
+data[0:2]=("Aman Thakur",22)
+print(data)
+data +["rahul",22]
+print(data)
+del(data[1])# delete  method
+print(data)
