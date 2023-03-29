@@ -13,7 +13,20 @@ print(data)
 # another method
 data[0:2]=("Aman Thakur",22)
 print(data)
-data +["rahul",22]
-print(data)
+new =data +["rahul",22] # add new data to list
+print(new)
 del(data[1])# delete  method
 print(data)
+
+# copy of list
+# Create list areas
+areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+
+# Create areas_copy
+areas_copy = list(areas)
+
+# Change areas_copy
+areas_copy[0] = 5.0
+
+# Print areas
+print(areas)
